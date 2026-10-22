@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>     <!-- data-bs-theme="dark" o padrão do site theme para colocar o modo dark / e assim dar opção white -->
+<html lang="pt-br" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+
+    <title>CARROS</title>
+</head>
+
+<body>
+ 
+    <!-- o botão pra mudar a cor de tema da pagina -->
+    <button class="btn btn-secondary position-absolute top=0 end=0 m-3" id="alterarTemaSite" onclick="alterarTemaSite()"><i class="bi bi-brightness-high-fill"></i></button>
+
+    <h1 class="text-center mb-4 p-3">Projeto Carros - <br> Estudante.dev</h1>
+
+    <div class="container">
+        <div class="row g-3" id="cards">
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="zoomImg" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title" id="nomeCarro"></h5>
+                    <button type="button" class="btn-close"
+                        data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+
+                <div class="modal-body">
+                    <img src="" id="imgModal"
+                        class="img-fluid rounded mb-3"
+                        alt="Imagem do carro">
+
+                    <p id="descricaoCarro"></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
