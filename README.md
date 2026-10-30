@@ -3,7 +3,6 @@ Projeto desenvolvido durante meus estudos de desenvolvimento front-end, com o ob
 
 🛠️ Tecnologias utilizadas
 HTML5: estruturação do conteúdo da página.
-CSS3: personalização visual e controle das dimensões dos elementos.
 JavaScript: criação dinâmica dos cartões de veículos, manipulação do DOM e implementação de interações.
 Bootstrap: organização do layout responsivo e estilização dos componentes.
 Bootstrap Icons: utilização de ícones para os botões de interação.
